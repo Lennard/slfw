@@ -40,4 +40,3 @@ function sltest_dispatch($cmd, &$sl, $args) {
       break;
   }
 }
-
