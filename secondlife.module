@@ -25,7 +25,7 @@ function secondlife_help($section) {
  */
 function secondlife_menu() {
   $items['admin/config/secondlife/settings'] = array(
-    'title'              => 'Second Life Einstellungen',
+    'title'              => 'Second Life',
     'description'        => 'Settings for the Second Life Framework module.',
     'page callback'      => 'drupal_get_form',
     'page arguments'     => array('secondlife_settings'),
