@@ -78,3 +78,4 @@ Author
 Khalid Baheyeldin (http://2bits.com)
 
 The author can also be contacted for paid customizations of this and other modules.
+
