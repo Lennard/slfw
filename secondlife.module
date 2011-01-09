@@ -123,7 +123,7 @@ function secondlife_settings() {
 function secondlife_request() {
   // check for server ips
   $is_ll = FALSE;
-  $ll_subnets = explode(",", variable_get('secondlife_allowed_ips', SECONDLIFE_LINDEN_SERVERS) );
+  $ll_subnets = explode("\n", variable_get('secondlife_allowed_ips', SECONDLIFE_LINDEN_SERVERS) );
   $remote_addr = $_SERVER['REMOTE_ADDR'];
   if (variable_get('secondlife_use_proxy', 0)) {
     $tempa = split(", ", $_SERVER['HTTP_X_FORWARDED_FOR']);
